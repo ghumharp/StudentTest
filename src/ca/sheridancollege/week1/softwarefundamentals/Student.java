@@ -17,6 +17,7 @@ public class Student {
      */
     private String name;
     private int ID;
+    private String Program;
     
     public Student(String givenName, int givenID)
     {
@@ -50,6 +51,20 @@ public class Student {
      */
     public void setID(int givenID) {
         ID = givenID;
+    }
+
+    /**
+     * @return the Program
+     */
+    public String getProgram() {
+        return Program;
+    }
+
+    /**
+     * @param Program the Program to set
+     */
+    public void setProgram(String Program) {
+        this.Program = Program;
     }
     
 }
