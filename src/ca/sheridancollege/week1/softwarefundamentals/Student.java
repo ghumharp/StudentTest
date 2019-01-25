@@ -6,7 +6,7 @@
 package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
- *
+ * January, 25 2019
  * @author Administrator
  */
 public class Student {
